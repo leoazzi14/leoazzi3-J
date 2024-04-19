@@ -14,3 +14,34 @@ background-color: var(--branco);
 color: var (var(--cor-de-fundo));
  
 }
+
+.conteudoprincipal{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ max-width: 1200px;
+ width: 100%;
+
+
+}
+
+.tituloprincipal{ 
+   text-align: center;
+   width: 100%;
+   font-size: 32px;
+
+}
+
+.botao{
+  background-color: var(--botao-inativo);
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 18px;
+  padding: 1em;
+
+
+}
