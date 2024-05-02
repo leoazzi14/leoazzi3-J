@@ -8,7 +8,7 @@
 
 }
 
-body
+*
 {
 background-color: var(--branco);
 color: var (var(--cor-de-fundo));
@@ -22,6 +22,7 @@ color: var (var(--cor-de-fundo));
  align-items: center;
  max-width: 1200px;
  width: 100%;
+ margin: 0 auto;
 
 
 }
@@ -31,6 +32,9 @@ color: var (var(--cor-de-fundo));
    width: 100%;
    font-size: 32px;
 
+}
+.botoes{
+   display: block;
 }
 
 .botao{
@@ -42,6 +46,23 @@ color: var (var(--cor-de-fundo));
   width: 100%;
   font-size: 18px;
   padding: 1em;
+  border-bottom: 4px solid var(--verde);
+  border-left: 2px solid var(--botao-ativo);
+  border-right: 2px solid var(--verde);
+
+
+}
+
+.span{
+ color: #ec1717e3;
+
+
+
+}
+
+.botao:first-child{
+
+border-radius: 20px 20px 0 0;
 
 
 }
