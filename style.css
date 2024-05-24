@@ -59,6 +59,7 @@ span{
     .botoes{
         display: flex;
     }
-    .botao:first-child
-    border-radius: ;
+    .botao:first-child{
+    border-radius: 20px;
+    }
 }
