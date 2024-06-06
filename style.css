@@ -71,3 +71,9 @@ span{
 .ativo{
     background-color: var(--botao-ativo) ;
 }
+.aba-conteudo{
+    display: none;
+}
+.aba-conteudo.ativo{
+    display: block;
+}
