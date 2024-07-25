@@ -17,6 +17,13 @@ segundos = Math.floor(segundos);
 minutos = Math.floor(minutos);
 horas = Math.floor(horas);
 dias = Math.floor(dias);
+
+if  (segundos >= 0){
+  return `faltam  ${dias} dias,  ${horas} horas,  ${minutos} minutos  e ${segundos}`
+} else{
+  return 'prazo finalizado'
+}
+
 tempo[1].  textContent = `faltam ${dias} dias, ${horas} horas, ${minutos} minutos, ${segundos} segundos.`;
 for (let i = 0; i < botoes.length ; i++){
     botoes[i].onclick = function(){
